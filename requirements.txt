@@ -1,0 +1,19 @@
+# LangChain and model providers
+langchain==0.3.10
+langchain-core>=0.3.22,<0.4
+langchain-community==0.3.10
+langchain-openai==0.2.8
+langchain-google-genai==2.0.5
+
+# DuckDuckGoSearchRun in langchain-community 0.3.10 imports duckduckgo_search.
+duckduckgo-search==6.4.2
+# Match the browser profiles used by duckduckgo-search 6.4.2.
+primp==0.9.1
+
+# Environment and configuration
+python-dotenv==1.0.1
+PyYAML
+
+# Notebook
+ipykernel
+jupyter
